@@ -89,12 +89,6 @@ Nessuna API esterna: la pagina è completamente statica e non effettua richieste
 - **FontAwesome via CDN**: icone professionali senza bundling; richiede connettività, con fallback testuale via `aria-label`.
 - **Descrizione animata in JS puro**: effetto a rotazione dei ruoli senza librerie esterne.
 
-## Testing
-
-- Test manuale su browser (Chromium, Firefox) e su viewport mobile/desktop tramite DevTools.
-- Verifica dei download dei PDF (IT/EN) e dei link social.
-- Nessuna suite di test automatici (progetto statico).
-
 ## Limitations & Future Improvements
 
 - Dipende dal CDN FontAwesome: offline mancano le icone.
