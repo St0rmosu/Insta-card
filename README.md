@@ -17,13 +17,11 @@ Un biglietto da visita digitale, moderno e interattivo. Una singola pagina che r
 
 ## Tech Stack
 
-| Tecnologia | Ruolo |
-|---|---|
-| HTML5 | Struttura semantica della card |
-| CSS3 | Layout Flexbox, gradienti custom e responsive design |
-| JavaScript | Effetti dinamici e rotazione testi (descrizione) |
-| FontAwesome | Iconografia social e file |
-| PDF (ITA/ENG) | Curriculum scaricabili |
+- **HTML5** — Struttura semantica della card digitale
+- **CSS3** — Layout Flexbox, gradienti personalizzati e responsive design
+- **JavaScript** — Logica interattiva e rotazione dinamica dei ruoli
+- **FontAwesome** — Iconografia vettoriale per social e documenti
+- **PDF (IT / EN)** — Curriculum scaricabili integrati
 
 ## Architettura
 
