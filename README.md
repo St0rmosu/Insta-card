@@ -53,13 +53,8 @@ Insta-card/
 └── README.md
 ```
 
-## Screenshots / Demo
-
-Demo live disponibile su: [st0rmosu.github.io/Insta-card](https://st0rmosu.github.io/Insta-card/)
-
-![Insta-card](IMG_20250725_214730.jpg)
-
 ---
 
 *Creato da Lorenzo Recchia.*
+
 
