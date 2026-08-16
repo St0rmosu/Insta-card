@@ -53,47 +53,13 @@ Insta-card/
 └── README.md
 ```
 
-## Installation & Setup
-
-Nessuna dipendenza da installare. Basta servire la cartella:
-
-```bash
-git clone https://github.com/St0rmosu/Insta-card.git
-cd Insta-card
-# apri index.html direttamente, oppure avvia un server statico
-python3 -m http.server 8080
-```
-
-## Usage
-
-1. Apri `index.html` nel browser.
-2. Leggi il profilo: foto, nome e descrizione ruotata automaticamente.
-3. Clicca le icone social per aprire i relativi profili.
-4. Usa il menu CV per scaricare il curriculum in italiano o in inglese (PDF).
-
 ## Screenshots / Demo
 
 Demo live disponibile su: [st0rmosu.github.io/Insta-card](https://st0rmosu.github.io/Insta-card/)
 
 ![Insta-card](IMG_20250725_214730.jpg)
 
-## API Documentation
-
-Nessuna API esterna: la pagina è completamente statica e non effettua richieste di rete. L'unico "endpoint" sono i download dei PDF locali (`Curriculum_Ita.pdf`, `Curriculum_Eng.pdf`).
-
-## Engineering Decisions
-
-- **Single-file static**: nessun framework, nessun build step, hosting ovunque (anche file://). Compromesso: personalizzazione solo modificando l'HTML.
-- **FontAwesome via CDN**: icone professionali senza bundling; richiede connettività, con fallback testuale via `aria-label`.
-- **Descrizione animata in JS puro**: effetto a rotazione dei ruoli senza librerie esterne.
-
-## Limitations & Future Improvements
-
-- Dipende dal CDN FontAwesome: offline mancano le icone.
-- Contenuti (foto, CV, link) da aggiornare manualmente nel file.
-- Non c'è sistema di analisi degli accessi.
-- Prossimi passi: versione multi-lingua automatica, microinterazioni, tema scuro/chiaro e sostituzione delle icone CDN con SVG inline.
-
 ---
 
 *Creato da Lorenzo Recchia.*
+
