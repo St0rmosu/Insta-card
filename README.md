@@ -73,9 +73,9 @@ python3 -m http.server 8080
 
 ## Screenshots / Demo
 
-![Insta-card](IMG_20250725_214730.jpg)
+Demo live disponibile su: [st0rmosu.github.io/Insta-card](https://st0rmosu.github.io/Insta-card/)
 
-> Inserire qui uno screenshot della card renderizzata (es. `screenshot.png`). La demo live è pubblicata su GitHub Pages.
+![Insta-card](IMG_20250725_214730.jpg)
 
 ## API Documentation
 
