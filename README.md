@@ -1,27 +1,27 @@
-# Insta-card — Profilo personale / biglietto da visita digitale
+# Insta-card: profilo personale e biglietto da visita digitale
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 
-Un biglietto da visita digitale, moderno e interattivo. Una singola pagina che raggruppa foto, nome, descrizione, link social (GitHub, LinkedIn, Instagram) e i curriculum in PDF (IT/EN) in un formato esteticamente curato, ottimizzato per smartphone e desktop.
+Un biglietto da visita digitale in una singola pagina: foto, nome, descrizione, link social (GitHub, LinkedIn, Instagram) e curriculum in PDF (IT/EN), ottimizzato per smartphone e desktop.
 
 ## Caratteristiche
 
-- **Design moderno**: gradiente elegante, icone social FontAwesome e layout card.
+- **Design moderno**: gradiente, icone social FontAwesome e layout card.
 - **Download CV bilingue**: link diretti ai curriculum in PDF (italiano e inglese) con download immediato.
 - **Link social**: accesso rapido a GitHub, LinkedIn e Instagram.
 - **Fully responsive**: layout adattato a viewport mobile e desktop.
-- **Zero dipendenze build**: unico file HTML, pronto all'uso.
+- **Zero dipendenze di build**: unico file HTML, pronto all'uso.
 
-## Tech Stack
+## Tech stack
 
-- **HTML5** — Struttura semantica della card digitale
-- **CSS3** — Layout Flexbox, gradienti personalizzati e responsive design
-- **JavaScript** — Logica interattiva e rotazione dinamica dei ruoli
-- **FontAwesome** — Iconografia vettoriale per social e documenti
-- **PDF (IT / EN)** — Curriculum scaricabili integrati
+- **HTML5** — struttura semantica della card digitale
+- **CSS3** — layout Flexbox, gradienti personalizzati e responsive design
+- **JavaScript** — logica interattiva e rotazione dinamica dei ruoli
+- **FontAwesome** — iconografia vettoriale per social e documenti
+- **PDF (IT / EN)** — curriculum scaricabili integrati
 
 ## Architettura
 
@@ -41,7 +41,7 @@ Pagina statica single-file: la card è composta da foto, testo (nome + descrizio
                     └──────────────────────────────────┘
 ```
 
-## Project Structure
+## Struttura del progetto
 
 ```
 Insta-card/
@@ -53,8 +53,4 @@ Insta-card/
 └── README.md
 ```
 
----
-
 *Creato da Lorenzo Recchia.*
-
-
