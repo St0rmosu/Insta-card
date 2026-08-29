@@ -9,37 +9,29 @@ Un biglietto da visita digitale in una singola pagina: foto, nome, descrizione, 
 
 ## Caratteristiche
 
-- **Design moderno**: gradiente, icone social FontAwesome e layout card.
-- **Download CV bilingue**: link diretti ai curriculum in PDF (italiano e inglese) con download immediato.
+- **Download CV bilingue**: link diretti ai curriculum in PDF (italiano e inglese).
 - **Link social**: accesso rapido a GitHub, LinkedIn e Instagram.
 - **Fully responsive**: layout adattato a viewport mobile e desktop.
 - **Zero dipendenze di build**: unico file HTML, pronto all'uso.
 
-## Tech stack
+## Apri
 
-- **HTML5** — struttura semantica della card digitale
-- **CSS3** — layout Flexbox, gradienti personalizzati e responsive design
-- **JavaScript** — logica interattiva e rotazione dinamica dei ruoli
-- **FontAwesome** — iconografia vettoriale per social e documenti
-- **PDF (IT / EN)** — curriculum scaricabili integrati
+Prerequisiti: un browser moderno. Non serve installare nulla.
 
-## Architettura
-
-Pagina statica single-file: la card è composta da foto, testo (nome + descrizione animata via JS), menu dei social e un menu a tendina per i curriculum:
-
+```bash
+git clone https://github.com/St0rmosu/Insta-card.git
+cd Insta-card
+# apri index.html, oppure
+python3 -m http.server 8080
 ```
-                    ┌──────────────────────────────────┐
-                    │            index.html            │
-                    ├──────────────────────────────────┤
-                    │   Immagine profilo (IMG_*.jpg)   │
-                    │   Nome · Descrizione (JS rotator)│
-                    │   ┌────────────────────────────┐ │
-                    │   │  Social: GitHub · LinkedIn │ │
-                    │   │          · Instagram       │ │
-                    │   │  CV:    IT ▾ · EN ▾        │ │
-                    │   └────────────────────────────┘ │
-                    └──────────────────────────────────┘
-```
+
+## Tecnologie
+
+- **HTML5** — struttura semantica della card.
+- **CSS3** — layout Flexbox, gradienti e responsive design.
+- **JavaScript** — rotazione dinamica dei ruoli.
+- **FontAwesome** — iconografia per social e documenti.
+- **PDF (IT/EN)** — curriculum scaricabili.
 
 ## Struttura del progetto
 
