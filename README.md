@@ -14,17 +14,6 @@ Un biglietto da visita digitale in una singola pagina: foto, nome, descrizione, 
 - **Fully responsive**: layout adattato a viewport mobile e desktop.
 - **Zero dipendenze di build**: unico file HTML, pronto all'uso.
 
-## Apri
-
-Prerequisiti: un browser moderno. Non serve installare nulla.
-
-```bash
-git clone https://github.com/St0rmosu/Insta-card.git
-cd Insta-card
-# apri index.html, oppure
-python3 -m http.server 8080
-```
-
 ## Tecnologie
 
 - **HTML5** — struttura semantica della card.
